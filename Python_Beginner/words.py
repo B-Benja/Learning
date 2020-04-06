@@ -36,4 +36,4 @@ def main(url):
     print_items(words)
 
 if __name__ == '__main__':
-    main(sys.argv[1])
+    main(sys.argv[1])  # arg 0th = module filename; 1st = url
