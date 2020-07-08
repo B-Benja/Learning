@@ -24,3 +24,17 @@ def eightball(answerNumber):
 r = random.randint(1,9)
 fortune = eightball(r)
 print(fortune)
+
+
+# improved using lists:
+messages = ['It is certain',
+'It is decidedly so',
+'Yes, definetly',
+'Reply hazy, try again',
+'Ask again later',
+'Concentrate and ask again',
+'My reply is no',
+'Outlook not so good',
+'Very doubtful']
+
+print(messages[random.randint(0, len(messages)-1)]) # no fixed size of list, easily add more messages
